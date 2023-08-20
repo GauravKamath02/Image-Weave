@@ -1,0 +1,30 @@
+<EdgeDropDown>:
+    Button:
+        text: "Canny"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.edge_detection_menu_click_handler("Canny")
+
+    Button:
+        text: "Sobel"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.edge_detection_menu_click_handler("Sobel")
+
+    Button:
+        text: "Laplacian"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.edge_detection_menu_click_handler("Laplician")
+
+    Button:
+        text: "Prewitt"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.edge_detection_menu_click_handler("Prewitt")
+
+    Button:
+        text: "Robert Cross"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.edge_detection_menu_click_handler("Robert Cross")

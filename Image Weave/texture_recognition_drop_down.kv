@@ -1,0 +1,30 @@
+<TextureRecognitionDropDown>:
+    Button:
+        text: "Local Binary Patterns"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.texture_recognition_menu_click_handler("LBP")
+
+    Button:
+        text: "GLCM"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.texture_recognition_menu_click_handler("Histogram Equalization")
+
+    Button:
+        text: "Gabor Filter"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.texture_recognition_menu_click_handler("Gabor")
+
+    Button:
+        text: "Local Ternary Patterns"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.texture_recognition_menu_click_handler("CLAHE")
+
+    Button:
+        text: "SIFT"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.texture_recognition_menu_click_handler("Decorrelation Stretch")

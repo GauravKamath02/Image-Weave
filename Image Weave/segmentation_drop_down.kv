@@ -1,0 +1,30 @@
+<SegmentationDropDown>:
+    Button:
+        text: "Threshold"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.segmentation_menu_click_handler("threshold_segmentation")
+
+    Button:
+        text: "K Means"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.segmentation_menu_click_handler("kmeans_segmentation")
+
+    Button:
+        text: "Mean Shift"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.segmentation_menu_click_handler("mean_shift_segmentation")
+
+    Button:
+        text: "Contour"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.segmentation_menu_click_handler("contour_segmentation")
+
+    Button:
+        text: "HSV"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.segmentation_menu_click_handler("hsv_segmentation")

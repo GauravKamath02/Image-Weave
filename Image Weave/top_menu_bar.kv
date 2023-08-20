@@ -1,0 +1,58 @@
+<TopMenuBar>:
+    size_hint: 1, 0.05
+    orientation: "lr-tb"
+
+    Button:
+        id: fileButton
+        text: "File"
+        font_size: "14dp"
+        size_hint : None, None
+        height: 40
+        width: 170
+        on_release: root.file_button_click(self)
+
+    Button:
+        id: segmentationButton
+        text: "Segmentation"
+        font_size: "14dp"
+        size_hint:None, None
+        height: 40
+        width: 170
+        on_release: root.segmentation_button_click(self)
+
+    Button:
+        id: edgeButton
+        text: "Edge Detection"
+        font_size: "14dp"
+        size_hint:None, None
+        height: 40
+        width: 170
+        on_release: root.edge_button_click(self)
+
+    Button:
+        id: enhancementButton
+        text: "Enhancement"
+        font_size: "14dp"
+        size_hint:None, None
+        height: 40
+        width: 170
+        on_release: root.enhancement_button_click(self)
+
+    Button:
+        id: textureButton
+        text: "Texture Recognition"
+        font_size: "14dp"
+        size_hint:None, None
+        height: 40
+        width: 170
+        on_release: root.texture_button_click(self)
+
+    Button:
+        id: customizing
+        text: "Customizing image"
+        font_size: "14dp"
+        size_hint:None, None
+        height: 40
+        width: 170
+        on_release: root.customizing_image_click()
+

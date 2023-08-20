@@ -1,0 +1,37 @@
+#: import file_open file_open
+
+
+<MainScreenManager>:
+
+    Screen:
+        name: "homeScreen"
+    Screen:
+        name: "fileOpenScreen"
+        FileOpen:
+    Screen:
+        name: "imageProcessing"
+        BoxLayout:
+            spacing: "10dp"
+            Image:
+                id: openedImage
+                size_hint: 0.25, 0.25
+            Image:
+                id: processedImage
+
+    Screen:
+        name: "customizing image processing"
+        BoxLayout:
+            spacing: "10dp"
+            Image:
+                id: selectedImage
+                size_hint: 0.25, 0.25
+            Image:
+                id: Processing_Image
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+<EnhancementDropDown>:
+    Button:
+        text: "Gamma"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.enhancement_menu_click_handler("Gamma")
+
+    Button:
+        text: "Histogram Equalization"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.enhancement_menu_click_handler("Histogram Equalization")
+
+    Button:
+        text: "Weiner Filter"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.enhancement_menu_click_handler("Wiener")
+
+    Button:
+        text: "CLAHE"
+        size_hint_y: None
+        height: 44
+        on_release: app.root.enhancement_menu_click_handler("CLAHE")
+
+    # Button:
+    #    text: "Decorrelation Stretch"
+    #    size_hint_y: None
+    #    height: 44
+    #    on_release: app.root.enhancement_menu_click_handler("Decorrelation Stretch")

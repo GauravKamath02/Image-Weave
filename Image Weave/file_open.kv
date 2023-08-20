@@ -1,0 +1,11 @@
+<FileOpen>:
+    orientation: "vertical"
+    padding: "50dp"
+    spacing: "20dp"
+    size: root.width, root.height
+    Image:
+        id: my_image
+        source: ""
+    FileChooserIconView:
+        id: fileChooser
+        on_selection: root.selected_file(fileChooser.selection);
